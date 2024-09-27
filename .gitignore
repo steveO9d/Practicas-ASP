@@ -2,6 +2,18 @@
 bin/
 obj/
 
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación y binarios
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.log
+
 # Archivos y carpetas de dependencias
 packages/
 project.lock.json
@@ -38,5 +50,28 @@ Thumbs.db
 secrets.json
 *.pfx
 
+# Archivos de configuración local
+*.local.json
+*.secret.json
+
 # Archivos de publicación
 publish/
+
+
+# Archivos del entorno de desarrollo
+.vs/
+*.user
+*.suo
+
+# Paquetes y dependencias
+packages/
+node_modules/
+libman.json
+*.nupkg
+
+# Publicación
+*.Publish.xml
+
+# Certificados locales
+*.pfx
+*.p12
